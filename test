@@ -1,0 +1,1 @@
+claude mcp add oura -e OURA_CLIENT_ID=a494a900-faef-4d62-9b68-5790a1dbd486 -e OURA_CLIENT_SECRET=Jg-afbi7e3CY_jRWqtD2bLm7FM0NFLL5EDuX5pg5glI -e OURA_ACCESS_TOKEN=_0XBPWQQ_1797570a-dfbd-41ed-a09f-8d9bc8bd2a3a -e OURA_REFRESH_TOKEN=_1XBPWQQ_7bcb3832-91b6-4d3c-b20b-2dac437d95c8 --scope user -- node /Users/nicolefreeman/Sites/oura-mcp/build/index.js

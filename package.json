@@ -8,7 +8,9 @@
     "build": "tsc",
     "dev": "tsc --watch",
     "start": "node build/index.js",
-    "clean": "rm -rf build"
+    "clean": "rm -rf build",
+    "test": "TZ=UTC node --experimental-vm-modules node_modules/.bin/jest",
+    "test:coverage": "TZ=UTC node --experimental-vm-modules node_modules/.bin/jest --coverage"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "latest",
@@ -17,7 +19,10 @@
     "zod": "^3.0.0"
   },
   "devDependencies": {
+    "@types/jest": "^30.0.0",
     "@types/node": "^20.0.0",
+    "jest": "^30.3.0",
+    "ts-jest": "^29.4.6",
     "tsx": "^4.21.0",
     "typescript": "^5.0.0"
   }
