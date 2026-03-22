@@ -1,0 +1,24 @@
+{
+  "name": "oura-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for Oura Ring API v2 — sleep, readiness, HRV, stress, cycle, and coaching",
+  "type": "module",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node build/index.js",
+    "clean": "rm -rf build"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "latest",
+    "dotenv": "^16.0.0",
+    "node-fetch": "^3.0.0",
+    "zod": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.0.0"
+  }
+}
